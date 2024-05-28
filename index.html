@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="body">
+
+      <div id="navbar">
+
+        <div>
+          <a href="#">Library System</a>
+        </div>
+
+        <div>
+          <ul id="navlist">
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">LogOut</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div id="books">
+        <h1>Books</h1>
+        <table id="books_table">
+          <tr>
+            <th>Book ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genere</th>
+            <th>Availability</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+              <a href="#">Pride and Prejudice</a><br /><br />
+              <table>
+                <tr>
+                  <td >Publication Date:2000</td>
+                </tr>
+                <tr>
+                  <td>Page Count:250</td>
+                </tr>
+                <tr>
+                  <td class="only_td">ISBN:123-4567890123</td>
+                </tr>
+              </table>
+            </td>
+            <td class="only_td">JAI RATAN</td>
+            <td>Historical: novels that are set in a specific historical period and often depict real historical events or figures.	</td>
+            <td class="only_td">Available</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              <a class="only_td" href="#">The Complete Novel of Sherlock Holmes</a><br /><br />
+              <table>
+                <tr>
+                  <td >Publication Date:2000</td>
+                </tr>
+                <tr>
+                  <td >Page Count:250</td>
+                </tr>
+                <tr>
+                  <td ">ISBN:123-4567890123</td>
+                </tr>
+              </table>
+            </td>
+            <td>Author Name 2</td>
+            <td>Genere 2</td>
+            <td class="only_td">NOT Available</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              <a href="#">Book Title 3</a><br /><br />
+              <table>
+                <tr>
+                  <td>Publication Date:2000</td>
+                </tr>
+                <tr>
+                  <td>Page Count:250</td>
+                </tr>
+                <tr>
+                  <td>ISBN:123-4567890123</td>
+                </tr>
+              </table>
+            </td>
+            <td>Author Name 3</td>
+            <td>Genere 3</td>
+            <td>Available</td>
+          </tr>
+        </table>
+      </div>
+      <br><br>
+
+      <div id="form">
+        <h1>Register</h1>
+        <form action="">
+            <label for="fname">First Name:</label><br>
+            <input class="form_input" id="fname" type="text" name="fname" required><br>
+
+            <label for="lname">Last Name:</label><br>
+            <input class="form_input" id="lname" type="text" name="lname" required><br>
+
+            <label for="dob">First Name:</label><br>
+            <input class="form_input" id="dob" type="date" name="dob" required><br>
+
+            <label for="age">Age:</label><br>
+            <input class="form_input" id="age" type="number" name="age" required><br>
+
+            <label for="Email">Email:</label><br>
+            <input class="form_input" id="Email" type="email" name="Email" required><br>
+
+            <label for="Password">Password:</label><br>
+            <input class="form_input" id="Password" type="password" name="Password" required><br>
+
+            <label for="Confirm_Password">Confirm Password:</label><br>
+            <input class="form_input" id="Confirm_Password" type="password" name="Confirm_Password" required><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
