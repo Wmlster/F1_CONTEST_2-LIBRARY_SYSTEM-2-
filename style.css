@@ -51,9 +51,7 @@ body {
 
 #books {
   background-color: white;
-  width: 60%;
-  height: 50%;
-
+  width: 50%;
   position: relative;
   left: 25%;
 
@@ -66,24 +64,25 @@ a {
 }
 
 table,
-th,
-td {
-  border: 1px solid rgb(196, 193, 193);
+td,
+th {
+  border: 2px solid #ececec;
   border-collapse: collapse;
-
-  padding: 20px;
-
+  color: #2c2c2c;
 }
 
-a{
-    text-align: left;
+td,
+th {
+  padding: 10px;
 }
 
-.only_td{
-    padding: 20px;
-    box-sizing: border-box;
-
-    white-space: nowrap;
+td > a {
+  color: #220fbc;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+a {
+  text-align: left;
 }
 
 #form {
